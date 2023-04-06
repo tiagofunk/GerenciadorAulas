@@ -1,0 +1,34 @@
+#root{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+#mes{
+    width: 200px;
+    height: 230px;
+    background-color: skyblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+#semana{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+#diaSemana{
+    width: 20px;
+    height: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
